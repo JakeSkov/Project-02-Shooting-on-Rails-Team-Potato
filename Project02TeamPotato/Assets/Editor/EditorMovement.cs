@@ -47,7 +47,7 @@ public class EditorMovement : EditorWindow
 
             //Tangent Modifiers
             EditorGUILayout.BeginVertical();
-            EditorGUILayout.Vector3Field("Tangent Start Position", tanStart);
+            tanStart = EditorGUILayout.Vector3Field("Tangent Start Position", tanStart);
             EditorGUILayout.Vector3Field("Tangent End Position", tanEnd);
             EditorGUILayout.EndVertical();
 
